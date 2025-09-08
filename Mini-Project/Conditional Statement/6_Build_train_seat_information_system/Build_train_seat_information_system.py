@@ -20,3 +20,5 @@ match seat_type:
         print("Luxury: Premium AC, Extra amenities")
     case _:
         print("Invalid seat type")
+
+
