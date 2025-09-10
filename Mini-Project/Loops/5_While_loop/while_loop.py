@@ -5,7 +5,9 @@ Task:
     1) Use a `while` loop.
     2) Increase temperature by 15 until it reaches or exceeds 100.
     3) Print each temperature step.
+
 """
+
 temperature = 100
 while temperature < 100:
     print(f"Current temperature: {temperature}")
