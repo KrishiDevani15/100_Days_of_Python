@@ -41,7 +41,7 @@ computer_choice = random.randint(0,2)
 print("Computer choose: ")
 print(game_img[computer_choice])
 
-if (user_choice < 0 or user_choice >= 3):
+if (0>user_choice>=3):
     print("You typed and invalid number. You lose !")
 
 elif user_choice == 0 and computer_choice == 2:
@@ -49,7 +49,7 @@ elif user_choice == 0 and computer_choice == 2:
     print(f"{user_name} wins")
 
 elif user_choice == 2 and computer_choice == 0:
-    # user --> Scissors and computer --> rock
+    # user --> Scissors(2) and computer --> rock(0)
     print("You lose")
 
 elif (user_choice < computer_choice):
