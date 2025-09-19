@@ -6,6 +6,7 @@ Step 1 :
     2. Ask the user for the name of their pet.
     3. Concatenate the city name and pet name to generate a band name.
     4.Print the band name.
+    
 """
 
 print("Welcome to the Band Name Generator.")
